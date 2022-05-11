@@ -77,7 +77,6 @@ public class Checkers extends JPanel {
 		Listener lis = new Listener();
 		addMouseListener(new Listener());
 
-		int k = 1;
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 3; j = j+2) {
 				if (i == 0 || i == 2 || i == 4 || i == 6) {
